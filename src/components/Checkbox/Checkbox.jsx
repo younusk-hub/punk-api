@@ -4,7 +4,7 @@ import "./Checkbox.scss"
 const Checkbox = ({handleChange}) => {
   return (
     <form className='checkboxes'>
-        <label htmlFor="abv">Hight ABV (>6.0%): </label>
+        <label htmlFor="abv">High ABV (more than: 6.0%): </label>
         <input id='abv' type="checkbox" onChange={handleChange} value="abv" />
 
         <label htmlFor="classic-range">Classic Range: </label>
