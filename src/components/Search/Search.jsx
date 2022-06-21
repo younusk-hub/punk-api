@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Search.scss"
 
 const Search = ({handleInput, label}) => {
 
@@ -7,7 +8,7 @@ const Search = ({handleInput, label}) => {
     return (
         <form className="search-box">
             <label htmlFor={label} className="search-box__label">{capitalizedLabel}</label>
-            <input type="text" name={label} onInput={handleInput} className="search-box__input"/>
+            <input type="text" name={label} onInput={handleInput} className="search-box__input" placeholder="Search..."/>
         </form>
   )
 }
