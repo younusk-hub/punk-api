@@ -1,0 +1,9 @@
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checkboxes__input {
+  margin-bottom: 25px;
+}/*# sourceMappingURL=Checkbox.css.map */

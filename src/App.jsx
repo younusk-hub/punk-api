@@ -82,6 +82,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1 className="App_title">Punk API has been deactivated - please review code</h1>
       <Filter label={"Search Beer: "} handleInput={handleInput} handleChange={handleChange} />
       <CardsContainer arr={filteredBeers} />
     </div>
